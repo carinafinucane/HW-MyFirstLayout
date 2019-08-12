@@ -21,21 +21,27 @@
 }
 .aboutgarden{
     grid-area: aboutgarden;
+    background-color: #FAFAFA;
 }
 .gardenimage{
     grid-area: gardenimage;
+    background-color: #FAFAFA;
 }
 .aboutteaching{
     grid-area: aboutteaching;
+    background-color: #FAFAFA;
 }
 .teachingimage{
     grid-area: teachingimage;
+    background-color: #FAFAFA;
 }
 .aboutdog{
     grid-area: aboutdog;
+    background-color: #FAFAFA;
 }
 .dogimage{
     grid-area: dogimage;
+    background-color: #FAFAFA;
 }
 .footer{
     grid-area: footer;
