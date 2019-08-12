@@ -16,6 +16,9 @@
 .meimage{
     grid-area: meimage;
 }
+.meimg{
+    width: 100%;
+}
 .aboutme{
     grid-area: aboutme;
 }
@@ -26,6 +29,9 @@
 .gardenimage{
     grid-area: gardenimage;
     background-color: #FAFAFA;
+}
+.gardenimg{
+    width: 100%;
 }
 .aboutteaching{
     grid-area: aboutteaching;
