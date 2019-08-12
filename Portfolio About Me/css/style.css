@@ -10,6 +10,36 @@
     "aboutdog dogimage"
     "footer footer";
 }
+.header{
+    grid-area: header;
+}
+.meimage{
+    grid-area: meimage;
+}
+.aboutme{
+    grid-area: aboutme;
+}
+.aboutgarden{
+    grid-area: aboutgarden;
+}
+.gardenimage{
+    grid-area: gardenimage;
+}
+.aboutteaching{
+    grid-area: aboutteaching;
+}
+.teachingimage{
+    grid-area: teachingimage;
+}
+.aboutdog{
+    grid-area: aboutdog;
+}
+.dogimage{
+    grid-area: dogimage;
+}
+.footer{
+    grid-area: footer;
+}
 .colorbar{
     height: 10px;
     background-color: green;
