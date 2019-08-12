@@ -39,6 +39,11 @@ a:hover{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
     color: #cacaca;
-    font-weight: 300;
     text-decoration: none;
+}
+.h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
 }
