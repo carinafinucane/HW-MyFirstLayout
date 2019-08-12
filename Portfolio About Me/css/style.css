@@ -18,8 +18,8 @@
     grid-area: header;
 }
 .cactusimg{
-    opacity: .5;
-
+    opacity: .75;
+    width: 90px;
 }
 .navbar{
     width: 90%; 
