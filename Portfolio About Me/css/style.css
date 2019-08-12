@@ -10,57 +10,9 @@
     "aboutdog dogimage"
     "footer footer";
 }
-.header{
-    grid-area: header;
-}
-.meimage{
-    grid-area: meimage;
-    margin: auto;
-    padding: 8%;
-}
-.meimg{
-    width: 100%;
-}
-.aboutme{
-    grid-area: aboutme;
-    margin: auto;
-    padding: 5%;
-}
-.aboutgarden{
-    grid-area: aboutgarden;
-    background-color: #FAFAFA;
-}
-.gardenimage{
-    grid-area: gardenimage;
-    background-color: #FAFAFA;
-}
-.gardenimg{
-    width: 80%;
-    margin-top: 10%;
-    padding: 8%;
-}
-.aboutteaching{
-    grid-area: aboutteaching;
-    background-color: #FAFAFA;
-}
-.teachingimage{
-    grid-area: teachingimage;
-    background-color: #FAFAFA;
-}
-.aboutdog{
-    grid-area: aboutdog;
-    background-color: #FAFAFA;
-}
-.dogimage{
-    grid-area: dogimage;
-    background-color: #FAFAFA;
-}
-.footer{
-    grid-area: footer;
-}
 .colorbar{
     height: 12px;
-    background-color:#FF6F61;
+    background-color: #88B04B;
 }
 .navbar{
     width: 90%; 
@@ -102,6 +54,9 @@ a:hover{
     color: #cacaca;
     text-decoration: none;
 }
+body{
+    margin:0;
+}
 h1{
     margin-top: 80px;
     margin-bottom: 20px;
@@ -115,4 +70,60 @@ p{
     font-size: 18px;
     color: #8A8A8A;
     line-height: 40px;
+}
+
+.header{
+    grid-area: header;
+}
+.cactusimg{
+    opacity: 1;
+
+}
+.meimage{
+    grid-area: meimage;
+    margin-top: 5%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 12%;
+    padding-right: 8%;
+}
+.meimg{
+    width: 100%;
+}
+.aboutme{
+    grid-area: aboutme;
+    margin: auto;
+    padding: 5%;
+}
+.aboutgarden{
+    grid-area: aboutgarden;
+    background-color: #FAFAFA;
+}
+.gardenimage{
+    grid-area: gardenimage;
+    background-color: #FAFAFA;
+}
+.gardenimg{
+    width: 80%;
+    margin-top: 10%;
+    padding: 8%;
+}
+.aboutteaching{
+    grid-area: aboutteaching;
+    background-color: #FAFAFA;
+}
+.teachingimage{
+    grid-area: teachingimage;
+    background-color: #FAFAFA;
+}
+.aboutdog{
+    grid-area: aboutdog;
+    background-color: #FAFAFA;
+}
+.dogimage{
+    grid-area: dogimage;
+    background-color: #FAFAFA;
+}
+.footer{
+    grid-area: footer;
 }
