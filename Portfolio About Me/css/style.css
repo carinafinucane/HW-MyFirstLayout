@@ -1,3 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-rows:1fr 6fr 4fr 4fr 4fr 6fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "meimage aboutme"
+    "aboutgarden gardenimage"
+    "aboutteaching teachingimage"
+    "aboutdog dogimage"
+    "footer footer";
+}
 .colorbar{
     height: 10px;
     background-color: green;
