@@ -14,6 +14,13 @@
     height: 12px;
     background-color: #88B04B;
 }
+.header{
+    grid-area: header;
+}
+.cactusimg{
+    opacity: 1;
+
+}
 .navbar{
     width: 90%; 
     margin-top: auto;
@@ -70,14 +77,6 @@ p{
     font-size: 18px;
     color: #8A8A8A;
     line-height: 40px;
-}
-
-.header{
-    grid-area: header;
-}
-.cactusimg{
-    opacity: 1;
-
 }
 .meimage{
     grid-area: meimage;
