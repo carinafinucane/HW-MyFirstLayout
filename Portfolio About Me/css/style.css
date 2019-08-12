@@ -1,16 +1,44 @@
+.colorbar{
+    height: 10px;
+    background-color: green;
+}
+.navbar{
+    width: 90%; 
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #fff;
+}
 .nav{
     position: relative;
     float: right;
 }
 .navwork {
+    margin-left: 25px;
+    margin-right: 25px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
+    color: #727272;
+    text-decoration: none;
 }
 .navabout {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
+    border-style: solid;
+    border-width: 0px 0px 2px;
+    color: #727272;
+    text-decoration: none;
 }
-a{
+a:hover{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
+    color: #cacaca;
+    font-weight: 300;
+    text-decoration: none;
 }
