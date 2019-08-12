@@ -41,9 +41,11 @@ a:hover{
     color: #cacaca;
     text-decoration: none;
 }
-.h1{
+h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
     color: black;
+    letter-spacing: 0.1em;
 }
