@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-rows:1fr 5fr 3.25fr 3.25fr 4fr 3fr;
+    grid-template-rows:1fr 5fr 3.25fr 3.25fr 3.75fr 3fr;
     grid-template-columns:1fr 1fr;
     grid-template-areas:
     "header header"
