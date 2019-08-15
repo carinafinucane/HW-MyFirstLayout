@@ -106,7 +106,7 @@ p{
 }
 .aboutgarden{
     grid-area: aboutgarden;
-    padding-top: 10%;
+    padding-top: 0%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
@@ -124,7 +124,7 @@ p{
 }
 .aboutteaching{
     grid-area: aboutteaching;
-    padding-top: 10%;
+    padding-top: 0%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
@@ -135,7 +135,7 @@ p{
 }
 .aboutdog{
     grid-area: aboutdog;
-    padding-top: 10%;
+    padding-top: 0%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
