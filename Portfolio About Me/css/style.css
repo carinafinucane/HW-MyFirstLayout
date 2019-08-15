@@ -105,9 +105,10 @@ p{
     background-color: #FAFAFA;
 }
 .threeimg{
-    width: 80%;
-    margin-top: 10%;
-    padding: 8%;
+    margin-top: 18%;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .aboutteaching{
     grid-area: aboutteaching;
