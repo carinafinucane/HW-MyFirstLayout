@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-rows:1fr 5fr 3.5fr 3.5fr 4fr 3fr;
+    grid-template-rows:1fr 5fr 3.25fr 3.25fr 4fr 3fr;
     grid-template-columns:1fr 1fr;
     grid-template-areas:
     "header header"
@@ -84,7 +84,7 @@ p{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     color: #8A8A8A;
-    line-height: 40px;
+    line-height: 45px;
     margin-top:5%;
 }
 .meimage{
@@ -106,7 +106,7 @@ p{
 }
 .aboutgarden{
     grid-area: aboutgarden;
-    padding-top: 19%;
+    padding-top: 10%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
@@ -124,7 +124,7 @@ p{
 }
 .aboutteaching{
     grid-area: aboutteaching;
-    padding-top: 19%;
+    padding-top: 10%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
@@ -135,7 +135,7 @@ p{
 }
 .aboutdog{
     grid-area: aboutdog;
-    padding-top: 19%;
+    padding-top: 10%;
     padding-left: 12%;
     padding-right: 8%;
     background-color: #FAFAFA;
@@ -156,7 +156,7 @@ p{
 .paragraph{
     grid-area: paragraph;
     margin-top: 18%;
-    margin-bottom: 10%;
+    margin-bottom: 13%;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     color: #8d8d8d;
