@@ -139,3 +139,9 @@ p{
 .footer{
     grid-area: footer;
 }
+.navfooter{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: #727272;
+    text-decoration: none;
+}
