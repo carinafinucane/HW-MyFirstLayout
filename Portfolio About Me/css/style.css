@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-rows:1fr 5fr 4fr 4fr 4fr 6fr;
+    grid-template-rows:1fr 5fr 3.5fr 3.5fr 4fr 3fr;
     grid-template-columns:1fr 1fr;
     grid-template-areas:
     "header header"
@@ -156,6 +156,7 @@ p{
 .paragraph{
     grid-area: paragraph;
     margin-top: 18%;
+    margin-bottom: 10%;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     color: #8d8d8d;
@@ -163,11 +164,14 @@ p{
 }
 .LinkedIn{
     grid-area: LinkedIn;
+    text-align: center;
 }
 .Email{
     grid-area: Email;
+    text-align: center;
 }
 .GitHub{
     grid-area: GitHub;
+    text-align: center;
 }
 
