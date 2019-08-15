@@ -10,6 +10,14 @@
     "aboutdog dogimage"
     "footer footer";
 }
+.contactme {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". . paragraph paragraph paragraph paragraph paragraph . ."
+    ". . . LinkedIn Email GitHub . . .";
+}
 .colorbar{
     height: 12px;
     background-color: #88B04B;
@@ -145,3 +153,16 @@ p{
     color: #727272;
     text-decoration: none;
 }
+.paragraph{
+    grid-area: paragraph;
+}
+.LinkedIn{
+    grid-area: LinkedIn;
+}
+.Email{
+    grid-area: Email;
+}
+.GitHub{
+    grid-area: GitHub;
+}
+
