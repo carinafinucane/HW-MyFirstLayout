@@ -6,7 +6,7 @@
     "header header"
     "meimage aboutme"
     "aboutgarden gardenimage"
-    "teachingimage aboutteaching"
+    "aboutteaching teachingimage"
     "aboutdog dogimage"
     "footer footer";
 }
@@ -122,18 +122,11 @@ p{
     padding-right: 10%;
     opacity: .9;
 }
-.oneimg{
-    margin-top: 12%;
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 8%;
-    opacity: .9;
-}
 .aboutteaching{
     grid-area: aboutteaching;
     padding-top: 19%;
-    padding-left: 6%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 8%;
     background-color: #FAFAFA;
 }
 .teachingimage{
