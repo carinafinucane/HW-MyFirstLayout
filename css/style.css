@@ -82,7 +82,7 @@ h1{
 }
 p{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: medium;
+    font-size: 16px;
     color: #8A8A8A;
     line-height: 40px;
     margin-top:0%;
@@ -160,7 +160,7 @@ p{
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     color: #8d8d8d;
-    font-size: 24px;
+    font-size: 22px;
 }
 .LinkedIn{
     grid-area: LinkedIn;
