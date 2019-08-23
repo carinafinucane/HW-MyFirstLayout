@@ -175,3 +175,26 @@ p{
     text-align: center;
 }
 
+@media only screen and (max-width: 1000px) {
+    .grid {
+          display:grid;
+          grid-template-rows: none;
+          grid-template-columns: none;
+          grid-template-areas:
+          "header"
+          "meimage"
+          "aboutme"
+          "aboutgarden"
+          "gardenimage"
+          "aboutteaching"
+          "teachingimage"
+          "aboutdog"
+          "dogimage"
+          "footer";
+    
+        }}
+
+@media only screen and (max-width: 1000px) {
+.contactme {
+    grid-template-columns:none;} 
+            }
