@@ -68,12 +68,16 @@ a:hover{
     font-size: 20px;
     color: #cacaca;
     text-decoration: none;
+    margin:none;
 }
 .header{
     grid-area: header;
 }
 .intro{
     grid-area: intro;
+}
+.projectimages{
+    width: 70%;
 }
 .mainheading{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -103,6 +107,22 @@ a:hover{
     line-height: 40px;
     font-weight: 400;
     text-decoration: none;
+}
+.projectheadings{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+}
+.projectheadings2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #727272;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+
 }
 .project1{
     grid-area: project1;
